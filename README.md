@@ -9,7 +9,7 @@ Tested with:
 Just add a `.env` file in the root of your jekyll project containing:
 
 ```
-export BUILDPACK_URL=https://github.com/inket/dokku-buildpack-jekyll3-nginx.git
+export BUILDPACK_URL=https://github.com/Lerain/dokku-buildpack-jekyll3-nginx.git
 ```
 
 ### Other
