@@ -17,7 +17,7 @@ http {
   port_in_redirect off;
 
   server {
-    listen <%= ENV["PORT"] %>;
+    listen <%= ENV["DOKKU_NGINX_PORT"] %>;
 
     index index.html;
     root /app/_site;
